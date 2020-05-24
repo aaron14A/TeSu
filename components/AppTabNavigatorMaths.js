@@ -3,8 +3,8 @@ import { Image } from 'react-native';
 import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { AppStackNavigatorMath } from './AppStackNavigatorMath';
 import MTestScreen from '../screens/MTestScreen';
-import MWorksheetScreen from '../screens/MathsScreens/MWorksheetScreen';
-import MLearnScreen from '../screens/MathsScreens/MLearnScreen';
+import MWorksheetScreen from '../screens/MWorksheetScreen';
+import MLearnScreen from '../screens/MLearnScreen';
 
 export const AppTabNavigatorMath = createBottomTabNavigator({
   MTestScreen : {
